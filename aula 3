@@ -3,12 +3,15 @@
 // sempre colocar a bliblioteca
 //scanf - leia
 //printf - esceva
-// ";" no finl de toda linha
+//";" no finl de toda linha
 //inteiro - int %i 
 //real - float %f
-//caractere - char %c
+//  "  - long  %lf  
+//caractere - char - 1 letra %c
+//     "      longo +1 letra %s
 //logico - bool %b
-// "&" codigo de endereço
+//"&" codigo de endereço
+
 
 #include<stdio.h>
 int main (){
