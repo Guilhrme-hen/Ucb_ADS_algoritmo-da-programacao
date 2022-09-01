@@ -1,3 +1,5 @@
+#primeira aula
+
 // sempre colocar a bliblioteca
 //scanf - leia
 //printf - esceva
@@ -55,3 +57,4 @@ printf ("%f\n", media[4]);
 	
 	
 }
+-----------------------------------------------------------------------------------
