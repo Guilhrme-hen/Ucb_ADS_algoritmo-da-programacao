@@ -1,14 +1,20 @@
 -----------------------------------------------------------------------------atividade1-----------------------------------------------------------------------------------
+#include<stdio.h>
 
+int main (){
+int hora, minutos, segundos;
 
+printf("digite o horario que deseja converter em horas: ");
+scanf("%i", &hora);
 
+minutos = hora * 60;
 
+segundos = hora * 3600;
 
+printf ("minutos = %i\n", minutos);
+printf ("segundos = %i", segundos);
 
-
-
-
-
+}
 -----------------------------------------------------------------------------atividade2-----------------------------------------------------------------------------------
 #include<stdio.h>
 int main (){
