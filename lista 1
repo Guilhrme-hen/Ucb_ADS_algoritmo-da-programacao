@@ -28,3 +28,37 @@ int main (){
 
 }
 -----------------------------------------------------------------------------atividade3-----------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------atividade4-----------------------------------------------------------------------------------
+#include<stdio.h>
+int main(){;
+	int a /*valor de a*/ ,b /*valor de b*/;
+	
+	printf ("digite o valor do dividendo: ");
+	
+	scanf ("%i", &a);
+	
+	printf ("digite o valor do divisor: ");
+	
+	scanf ("%i", &b);
+	
+	printf ("O quociente da divisao e %i\n", a/b);
+	
+	printf ("O resto da divisao e %i", a%b);
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
