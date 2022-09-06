@@ -65,8 +65,23 @@ int main(){;
 	
 }
 -----------------------------------------------------------------------------atividade5-----------------------------------------------------------------------------------
+#include<stdio.h>
+int main(){;
+	int metrosdefio, metrosavulso, rolos;
+	
+	printf ("digite quantos metros precisa: ");
+	
+	scanf ("%i", &metrosdefio);
+	
+	rolos = (metrosdefio/50);
+	
+	metrosavulso = (metrosdefio % 50);
+	
+	printf ("Vai usar %i rolo(s) \nE %i de metros avulso",rolos, metrosavulso);
 
-
+	
+}
+-----------------------------------------------------------------------------atividade6---------------------------------------------------------------------------------
 
 
 
