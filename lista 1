@@ -82,14 +82,51 @@ int main(){;
 	
 }
 -----------------------------------------------------------------------------atividade6---------------------------------------------------------------------------------
+#include <stdio.h>
+int main (){
+float notaA, notaB, media;
 
+printf ("peso nota A: 3,5\n");
+printf ("peso nota B: 7,5\n");
 
+printf ("digite a primeira nota A ");
+scanf("%f", &notaA);
 
+printf ("digite a primeira nota B ");
+scanf("%f", &notaB);
 
+media = (3.5*notaA + 7.5*notaB)/11;
 
+printf ("a media obitida foi: %f", media);
 
-
-
-
-
-
+}
+-----------------------------------------------------------------------------atividade7---------------------------------------------------------------------------------
+#include<stdio.h>
+int main (){
+	char nome[30], sexo, matricula[10];
+	float horasT, salarioH, salarioM;
+	
+	printf("Informe seu nome: ");
+    scanf("%[^\n]", &nome);
+    
+	printf("Informe seu sexo (M/F): ");
+    scanf("\n%c", &sexo);
+    
+	printf("Informe seu numero da matricula: ");
+    scanf("%s", &matricula);
+    
+	printf("Informe Horas trabalhada Mensal: ");
+    scanf("%f", &horasT);
+    
+	printf("Informe quanto recebe por Hora ");
+    scanf("%f", &salarioH);
+	
+    salarioM = horasT * salarioH;
+	
+	printf("\nnome: %s\nsexo: %c\nmatricula: %s\n", nome, sexo, matricula);
+	
+	printf("Horas Trabalhadas: %g\nSalario por Hora: %g\nSalario Mensal: %g", horasT, salarioH, salarioM);
+	
+	
+	
+}
