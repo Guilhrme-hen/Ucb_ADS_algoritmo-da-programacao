@@ -2,7 +2,9 @@
 quociente da divisão do primeiro pelo segundo número.
 – Lembre-se das expressões aritméticas:
 1. mod → m mod i: resto da divisão de m por i
-2. (\) → m \ i: quociente da divisão de m por i*/
+2. (\) → m \ i: quociente da divisão de m por i
+Exemplo: 5 mod 2 é 1
+ 5 \ 2 é 2*/
 
 #include<stdio.h>
 int main(){;
