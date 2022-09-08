@@ -8,19 +8,19 @@ Exemplo: 5 mod 2 é 1
 
 #include<stdio.h>
 int main(){;
-	float nota1,nota2,nota3, media;
+	int a /*valor de a*/ ,b /*valor de b*/;
 	
-	printf ("digite a nota 1: ");
-	scanf ("%f", &nota1);
+	printf ("digite o valor do dividendo: ");
 	
-	printf ("digite a nota 2: ");
-	scanf ("%f", &nota2);
+	scanf ("%i", &a);
 	
-	printf ("digite a nota 3: ");
-	scanf ("%f", &nota3);
+	printf ("digite o valor do divisor: ");
 	
-	media = (nota1+nota2+nota3)/3;
+	scanf ("%i", &b);
 	
-	printf ("a media da nota e: %f", media);
+	printf ("O quociente da divisao e %i\n", a/b);
+	
+	printf ("O resto da divisao e %i", a%b);
+	
 	
 }
