@@ -107,7 +107,7 @@ int main (){
 	float horasT, salarioH, salarioM;
 	
 	printf("Informe seu nome: ");
-    scanf("%s\n", &nome);
+    scanf("%[^\n]", &nome);
     
 	printf("Informe seu sexo (M/F): ");
     scanf("\n%c", &sexo);
@@ -126,6 +126,10 @@ int main (){
 	printf("\nnome: %s\nsexo: %c\nmatricula: %s\n", nome, sexo, matricula);
 	
 	printf("Horas Trabalhadas: %g\nSalario por Hora: %g\nSalario Mensal: %g", horasT, salarioH, salarioM);
+	
+	
+	
+}
 	
 	
 	
