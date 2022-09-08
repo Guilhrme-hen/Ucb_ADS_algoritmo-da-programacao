@@ -5,7 +5,7 @@ de entrada e os dados de saída.*/
 
 #include<stdio.h>
 int main (){
-	char nome[30], sexo, matricula[10];
+	char nome[50], sexo, matricula[10];
 	float horasT, salarioH, salarioM;
 	
 	printf("Informe seu nome: ");
