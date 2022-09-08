@@ -4,7 +4,7 @@ quociente da divisão do primeiro pelo segundo número.
 1. mod → m mod i: resto da divisão de m por i
 2. (\) → m \ i: quociente da divisão de m por i
 Exemplo: 5 mod 2 é 1
- 5 \ 2 é 
+ 5 \ 2 é */
 
 #include<stdio.h>
 int main(){;
