@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main(){;
+	float numeroA,numeroB;
+	printf ("digite o Numero A: ");
+	scanf ("%f", &numeroA);
+	
+	printf ("digite o numero B: ");
+	scanf ("%f", &numeroB);
+	
+if (numeroA > numeroB)
+{
+    printf("o numero A e %lf maior que  o numero B que e %lf\n", numeroA, numeroB);
+    printf("o numero A e maior que o numero B\n");
+}
+else
+{
+    printf("%lf\n", numeroB);
+    printf("o numero B e %lf o numero A e %lf\n",numeroB, numeroA);
+}
+
+}
